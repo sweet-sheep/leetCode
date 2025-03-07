@@ -41,7 +41,7 @@ function ListNode(val) {
 }
 //最快
 var addTwoNumbers = function(l1, l2) {
-    // 转成数组 两两相加 合成新数组
+   
     let addNode = new ListNode(0); 
     // 进位
     let carry = 0;
